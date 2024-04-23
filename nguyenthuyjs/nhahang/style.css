@@ -1,0 +1,117 @@
+/* Custom styles for your HTML document */
+
+/* Style for the body */
+body {
+  background-color: rgb(152, 151, 151);
+}
+
+/* Style for the container */
+.container {
+  margin-top: 50px; /* Adjust as needed */
+}
+
+/* Style for the navigation bar */
+.navbar {
+  border-radius: 5px;
+}
+
+/* Style for the navigation links */
+.navbar a {
+  color: black;
+  font-weight: bold;
+}
+
+/* Style for the buttons */
+.btn {
+  margin-right: 5px;
+}
+
+/* Style for the form */
+form {
+  margin-bottom: 20px;
+}
+
+/* Style for the table */
+.table {
+  margin-top: 20px;
+}
+
+/* Style for the edit form */
+#editForm {
+  margin-top: 20px;
+}
+
+/* Responsive styles for smaller devices */
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .btn {
+    margin-bottom: 5px;
+  }
+}
+/* Custom styles for your HTML document */
+
+/* Style for the heading */
+h1,
+h2 {
+  color: white;
+}
+
+/* Style for the product details */
+#productDetails {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Style for the product details image */
+#detailsImage {
+  margin-bottom: 10px;
+}
+
+/* Style for the edit form inputs */
+#editForm input[type="text"] {
+  margin-bottom: 10px;
+}
+
+/* Style for the edit form button */
+#editForm input[type="button"] {
+  background-color: #ffb700;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the edit form button on hover */
+#editForm input[type="button"]:hover {
+  background-color: #ffb700;
+}
+
+/* Style for the table header */
+.table th {
+  color: white;
+  background-color: #343a40;
+}
+
+/* Style for the table rows */
+.table td {
+  vertical-align: middle;
+}
+
+/* Style for the table actions (details, edit, delete) */
+.table .action-btn {
+  margin-right: 5px;
+}
+
+/* Responsive styles for smaller devices */
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+}
